@@ -8,10 +8,10 @@ function App() {
   return (
     <div className="container-fluid d-flex align-items-center justify-content-center vh-100 bg-red">
       <div className="row w-100">
-        <div className="col-md-6 d-none d-md-flex align-items-center justify-content-center">
+        <div className="col-12 col-md-6 d-flex align-items-center justify-content-center order-1 order-md-1">
           <Pictures />
         </div>
-        <div className="col-md-6 d-flex align-items-center justify-content-center">
+        <div className="col-12 col-md-6 d-flex align-items-center justify-content-center order-2 order-md-2">
           <Login />
         </div>
       </div>
@@ -19,4 +19,4 @@ function App() {
   );
 }
 
-export default App;
+export default App;

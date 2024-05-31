@@ -6,12 +6,12 @@ const Login = () => {
     <div className="login-box">
       <h2 className="heading text-left mb-4">Log In</h2>
       <form>
-        <div className="form-group mb-3">
+        <div className="form-group mb-3"> 
           <input type="email" className="form-control" id="email" placeholder="E-mail" />
         </div>
         <div className="form-group mb-3">
           <input type="password" className="form-control" id="password" placeholder="Password" />
-          <small className="form-text text-right"><a href="#">Forget your password?</a></small>
+          <a href="#" className="forgot-password">Forgot your password?</a>
         </div>
         <button type="submit" className="btn btn-primary btn-block">Log In</button>
       </form>
